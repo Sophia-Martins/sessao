@@ -1,0 +1,138 @@
+body{
+    background-image: url('Login.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow: hidden;
+}
+
+.container{
+    width: 1000px; 
+    height: 500px; 
+   /*  margin-left: 25%; 
+    margin-top: 10%;  */
+   /* border-left: 0px solid #592B1B;*/
+    box-shadow: 30px 30px 20px rgba(0, 0, 0, 0.25);
+}
+
+#DadoP{
+    margin-top: 35px;/*20px*/
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+    color: #8A512C;
+    
+}
+    
+h4{
+    margin-top: 35px;/*20px*/
+    margin-right: 70px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    
+}
+
+input{
+    margin-left: 130px;
+    height: 24px;
+    border-radius: 5px;
+    border: 2px solid #8A512C;
+}
+
+#Letra{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0px;
+    margin-left: 130px;
+}
+
+h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    color: #592B1B;
+}
+
+button{
+    margin-top: 30px;
+                
+}
+
+#cads{
+    width: 330px;
+    height: 36px;
+    background: #592B1B;
+    /*border-radius: 10px;*/
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 130px;
+    margin-top: 30px;
+    border: none;
+}
+
+#cads:hover{
+    background: #6e3724;
+    color: #FFFFFF;
+    /*border-radius:10px;*/
+}
+
+#Voltar{
+    width: 250px;
+    height: 37px;
+    background: #FFFFFF;
+    /*border: 3px solid #592B1B;*/
+    /*border-radius: 10px;*/
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    color: #592B1B;
+    margin-left: 85px;
+    margin-top: 223px;
+    text-align: center;
+}
+
+#Voltar:hover{
+    background: #f5ecec;
+    color: #592B1B;
+   /* border-radius:10px;*/
+}
+
+#direito{
+    width: 42%;
+    height: 100%;
+    float: right;
+    background-color: #8A512C;
+}
+
+#div-branco{
+    width: 58%;
+    height: 100%;
+    float: left;
+    background-color: #FFFFFF;
+}
+

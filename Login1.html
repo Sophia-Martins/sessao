@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="div-branco">
+            <h2>Bem Vindo!</h2>
+            <img src="livro.png" alt="" style="margin-top: -35px;"><br><br>
+            <h4 style="margin-top: -55px;">Não foi cadastrado? Inicie uma Sessão agora.</h4><br>
+            <a href="CadastrarSe.html"><input type="button" value="Cadastre-se" id="cadas"></a>
+        </div>
+        <div class="div--transparente">
+            <h1>Login</h1>
+            <form action="php/logon.php" method="post">
+                <label id="funcionario" style="margin-left: -249px;">Código</label>
+                <br>
+                <input type="number" name="id" required>
+                <br><br>
+                <label id="Senha">Senha</label>
+                <br>
+                <input type="password" name="nm_senha" required>
+                <br><br>
+                <button type="submit" id="entrar">Entrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

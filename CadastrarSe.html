@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" type="text/css" href="Cads.css">
+</head>
+<body style="background-color: #F4EDE2; margin: 0;">
+    <div class="container">
+    <div id="div-branco">
+    <form action="php/sessao.php" method="POST">
+    <center>
+    <h3 id="DadoP">Cadastre-se</h3>
+    <hr width="370px;">
+    </center><br>
+    <label id="Letra">Nome</label><br>
+    <input type="text" style="width: 320px;" name="nome"><br>
+
+    <label id="Letra">Sobrenome</label><br>
+    <input type="text" style="width: 320px;" name="sobrenome"><br>
+
+    <label id="Letra">Data de</label><br><label id="Letra">nascimento</label>
+    <input type="date" style="width: 239px; margin-left: 10px;" name="dt_nascimento"><br>
+
+    <label id="Letra">Senha</label><br>
+    <input type="password" style="width: 320px;" name="senha"><br><br>
+    <button type="submit" id="cads">Cadastrar</button>
+    </div>
+</form>
+    <div id="direito" >
+        <h4>Já se cadastrou? <br> Continue.</h4>
+        <a href="Login1.html"><input type="button" value="LOGIN" id="Voltar"></a>
+    </div>
+
+</div>
+</body>
+</html>
